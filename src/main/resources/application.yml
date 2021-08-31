@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:postgresql://db.larnerweb.ru:5432/eve
+    username: postgres
+    password: Ralf@12358
+    pool:
+      enabled: true
+      initial-size: 10
+      max-idle-time: 1m
+      max-size: 30
+eve:
+  api-url: https://esi.evetech.net/latest
